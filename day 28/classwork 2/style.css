@@ -1,0 +1,54 @@
+#enterance{
+    color: red;
+    text-align: center;
+    font-family: 'Comfortaa', sans-serif;
+}
+#enterance #img1{
+    width: 374px;
+    border-radius: 30px;
+}
+#enterance img{
+    width: 1000px;
+    border-radius: 30px;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.827);
+}
+#contact{
+    color: red;
+    font-family: 'Comfortaa', sans-serif;
+    text-align: left;;
+}
+
+.content{
+    text-align: left;
+    margin-left: 285px;
+}
+
+.text{
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.296);
+    border-radius: 15px;
+    color: red;
+    margin-left: 200px;
+}
+.feedback{
+    width: 300px;
+    height: 250px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.296);
+    border-radius: 15px;
+    color: red;
+    margin-left: 200px;
+}
+::placeholder{
+    color: red;
+}
+
+#letter{
+    color: red;
+    font-family: 'Comfortaa', sans-serif;
+    text-align: center;
+}

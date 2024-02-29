@@ -1,0 +1,21 @@
+p{
+    color: tomato;
+    font-size: 18px;
+    font-weight: 400;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+    text-decoration-color: green;
+    text-decoration-style: dashed;
+}
+h1{
+    color:red;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: overline;
+    text-decoration-color: green;
+    text-decoration-style:wavy
+}
+a{
+    color: tomato;
+    font-family: 'Courier New', Courier, monospace;
+
+}

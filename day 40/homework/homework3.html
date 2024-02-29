@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="demo" onclick="myfuntions()">hi click me for me info</h1>
+    <script>
+     document.getElementById("demo").onclick = function() {myFunction()};
+
+function myFunction() {
+  document.getElementById("demo").textContent = "my name is jeko and i am a crew leader";
+  document.getElementById("demo").style.color = "green";
+ }
+
+
+    </script>
+</body>
+</html>

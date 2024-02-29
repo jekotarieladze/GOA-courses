@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&family=Poppins:ital,wght@0,200;0,400;1,400&display=swap');
+
+body {
+    background-image: url(img/blurred-abstract-background-design_1107-169.avif);
+    background-size: cover;
+}
+
+div {
+    display: flex;
+    gap: 25px;
+    color: rgb(78, 78, 78);
+    font-family: Poppins;
+    justify-content: end;
+    
+    
+
+}
+
+ol {
+    display: flex;
+    gap: 100px;
+    list-style: none;
+    font-size: 17px;
+}
+
+ol:hover {
+    text-decoration: underline;
+}
+
+button {
+    border-color: black;
+    border-radius: 20px;
+    width: 68px;
+    height: 37px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    margin-top: 11px;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    font-family: Poppins;
+    display: flexbox;
+    margin-left: 10%;
+    margin-top: 15%;
+    font-size: 50px;
+}
+
+input {
+    border-radius: 18px;
+    height: 35px;
+    width: 15%;
+    font-family: Poppins;
+    color: black;
+    margin-left: 150px;
+    font-size: 20px;
+    border-width: 3px;
+    border-color: black;
+
+}
+
+img {
+    width: 35%;
+    border-radius: 20px;
+    margin-left: 58%;
+    margin-top: -28%;
+}

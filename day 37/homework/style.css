@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@500&family=Indie+Flower&family=Poppins:wght@300&family=Rubik+Doodle+Shadow&family=Rubik+Maps&family=Single+Day&display=swap');
+*{
+    font-family: Poppins;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   background-color: black;
+}
+#div{
+    padding: 100px 200px 100px 200px;
+    border-radius: 20px;
+}
+
+form{
+    
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    padding-bottom: 20px;
+}
+input[type=text], input[type=password], input[type=email]{
+    border-radius: 10px;
+    height: 30px;
+}
+a button{
+     
+     border-radius: 4px;
+     color: black;
+     background-color: green;
+     font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    border-color: green;
+}
+h1{
+    color: rgb(255, 255, 255);
+}

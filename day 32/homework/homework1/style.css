@@ -1,0 +1,39 @@
+body{
+    text-align: center;
+}
+
+
+img{
+    width: 150px;
+}
+
+#h3{
+    color: gray;
+}
+
+.button{
+    background-color: #0095f6;
+    border: 0px;
+    border-radius: 5px;
+    width: 250px;
+    height: 30px;
+    color: white;
+    text-align: center;
+}
+
+p{
+    color: gray;
+}
+
+.text{
+    font-size:small;
+}
+
+input{
+    display: flex;
+    justify-content: space-between;
+    position:absolute;
+    left: 40rem;
+    width: 250px;
+    height: 30px;
+}

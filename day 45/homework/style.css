@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    background-color: black;
+}
+#container{
+    border: solid;
+    box-sizing: border-box;
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+    border-color: white;
+    transition: 2s ease;
+    box-shadow: 3px 3px 15px blue;
+}
+#container:hover{
+    cursor: pointer;
+    transform: scale(1.04);
+}
+#container_2{
+    border: solid;
+    box-sizing: border-box;
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+    border-color: white;
+    transition: 2s ease;
+    box-shadow: 3px 3px 15px red;
+}
+#container_2:hover{
+    cursor: pointer;
+    transform: scale(1.04);   
+}
+#main{
+    display: flex;
+    gap: 150px;
+    margin-top: 200px;
+    margin-left: 750px;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+}
+h2{
+    text-align: center;
+    margin-top: 85px;
+    color: rgba(255, 255, 255, 0.422);
+}
+button{
+    margin-left: 990px;
+    width: 100px;
+    height: 40px;
+    border: solid;
+    border-radius: 7px;
+    box-shadow: 3px 3px 3px black;
+    font-size: 20px;
+}
+button:hover{
+    cursor: pointer;
+    transform: rotate(360deg);
+}

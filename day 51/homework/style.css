@@ -1,0 +1,35 @@
+body{
+    background-image: url(./pexels-pixabay-531880.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#cont ul{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    font-size: 22px;
+    list-style: none;
+    color: black;
+}
+#cont ul #sp{
+    color: red;
+}
+li button{
+    background-color: blue;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: -20px;
+    margin-left: -70px;
+    color: white;
+}
+pre {
+    font-size: 35px;
+    color: blue;
+}
+input{
+    margin-left: 620px;
+    width: 500px;
+    height: 60px;
+    border-radius: 20px;
+    margin-top: -1000px;
+}

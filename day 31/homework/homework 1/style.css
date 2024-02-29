@@ -1,0 +1,129 @@
+body{
+    margin: 0%;
+}
+
+.topnav {
+    background-color: white ;
+    color: black;
+    overflow: hidden;
+    padding-right: 60px;
+    overflow: hidden;
+    position: fixed;
+  }
+
+  .topnav a:hover {
+    background-color: white;
+    color: black;
+  }
+
+nav{
+    border: 2px;
+    display: flex;
+    justify-content: flex-end;
+    width: 1490px;
+}
+
+.nav-photo img{
+    margin-right: 850px;
+    border-radius: 5px;
+    margin-bottom: 0px;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 1.5em;
+}
+li{
+    margin: 1.em;
+    margin-top: 10px;
+}
+
+.nav-link{
+    font-size: 15px;
+    font-family: 'Comfortaa', sans-serif;
+    text-decoration: none;
+    color: black; 
+}
+
+.photo{
+    width: 437px;
+    border-radius: 15px;
+    float: inline-start;
+    margin-left: 50px;
+    margin-top: 70px;
+}
+
+#aboutus{
+    text-align: center;
+    color: white;
+    font-size: x-large;
+    font-family: 'Comfortaa', sans-serif;
+    padding-top: 195px;
+    background-color: rgba(128, 128, 128, 0.515);
+    background-image: url("files\ for\ html/view.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#home{
+    background-color: white;
+    background-image: url("files\ for\ html/no.jpg");
+    background-size: 1590px;
+    background-repeat: no-repeat;
+    background-position: center;
+    color:rgb(8, 49, 49);
+    text-align: center;
+    font-size: xx-large;
+    font-family:  'Comfortaa', sans-serif;
+
+}
+
+#home p{
+    font-size: large;
+}
+
+.nowhere{
+    text-align: center;
+    font-size: xx-large;
+    font-family:  'Comfortaa', sans-serif;
+}
+
+#ces{
+    font-family: 'Comfortaa', sans-serif;
+    margin-left: 70px;
+    padding-top: 200px;
+    font-size: x-large;
+}
+#ces img{
+    float: right;
+    width: 500px;
+    margin-bottom: 200px;
+    margin-right: 90px;
+    border-radius: 15px;
+}
+
+#contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+.input{
+    width: 390px;
+    height: 40px;
+    border-radius: 15px;
+}
+
+.message{
+    width: 390px;
+    height: 150px;
+    border-radius: 15px;
+}
+
+.klasi{
+    text-align: center;
+    font-family: 'Comfortaa', sans-serif;
+}
